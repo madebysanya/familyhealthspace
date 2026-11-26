@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lab Trends</title>
+<title>Family Health Space</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -148,7 +148,7 @@ function sampleData(){
   ].map(([name,value,unit,lo,hi])=>({name,value,unit,lo,hi}))});
   const med=(name,strength,dose,m,a,n,freq,food,dur,start,stop)=>({id:id(),person:P,name,strength,dose,m,a,n,freq,food,dur,start,stop:stop||null,by:"Dr. R. Mehta"});
   return {
-    people:[{id:P,name:"Sample profile"}],
+    people:[{id:P,name:"Grandpa"}],
     docs:[
       lab("2024-02-14","City Diagnostics",[6.1,108,132,46,168,3.2,12.4,14,0.82]),
       lab("2024-08-22","City Diagnostics",[6.4,116,121,44,182,4.1,12.1,22,0.85]),
